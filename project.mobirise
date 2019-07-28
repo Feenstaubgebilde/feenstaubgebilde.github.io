@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "feenstaubgebilde_home.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3912,7 +3912,7 @@
         }
       ]
     },
-    "feenstaubgebilde_home.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "Home",
