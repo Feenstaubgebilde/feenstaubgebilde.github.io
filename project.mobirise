@@ -43,12 +43,12 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 85,
+    "uniqCompNum": 80,
     "versionPublish": "4.10.5",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/dsc-8365-128x192.png",
     "noImageResize": "",
-    "google-analytics": "",
+    "google-analytics": "<script type=\"text/javascript\">\r\nvar message=\"\";\r\nfunction clickIE() {if (document.all) {(message);return false;}}\r\nfunction clickNS(e) {if\r\n(document.layers||(document.getElementById&&!document.all)) {\r\nif (e.which==2||e.which==3) {(message);return false;}}}\r\nif (document.layers)\r\n{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}\r\nelse{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}\r\ndocument.oncontextmenu=new Function(\"return false\")\r\n</script>\r\n",
     "gdpr": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
   },
   "pages": {
@@ -3960,11 +3960,11 @@
           "_name": "content5",
           "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/received-1663390390392014-2000x1333.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Hintergrundvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay-Farbe\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Transparenz\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Heart of Art</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    ~ There are so many ways to do Art ~</h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Gestalten Sie Ihre zukünftigen Web-Projekte mit scharfem Design und verfeinern Sie die codierten Funktionen\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">MEHR INFO</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rxsOCSGGl0",
+          "_anchor": "content5-28",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-28"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4039,6 +4039,7 @@
           "_name": "gallery2",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay-Farbe\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Farbverlauf-Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay-Farbe 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay-Transparenz\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallerie\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"6\" mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
           "_cid": "rxsODU1xu7",
+          "_anchor": "gallery2-29",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -4404,8 +4405,7 @@
                 "active": true
               }
             ]
-          },
-          "_anchor": "gallery2-29"
+          }
         },
         {
           "alias": false,
