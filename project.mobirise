@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "index.html",
+    "currentPage": "feenstaubgebilde_4_seasons.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1636,7 +1636,7 @@
                 "active": false
               },
               {
-                "tags": "Autum",
+                "tags": "Spring",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1646,7 +1646,7 @@
                 "title": "Sea Witch 3",
                 "customStyle1": "display-7",
                 "caption": "Bildunterschrift",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Summer",
@@ -1672,7 +1672,7 @@
                 "title": "Sun godness 3",
                 "customStyle1": "display-7",
                 "caption": "Bildunterschrift",
-                "active": true
+                "active": false
               }
             ]
           }
@@ -2988,8 +2988,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "Mainpage of Feenstaubgebilde / Kali Morphania / Chris Kölln",
+        "title": "Feenstaubgebilde Art & Fashion",
+        "meta_descr": "Feenstaubgebilde \nArt & Fashion\n",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -4054,7 +4054,7 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Fetish Art",
+                "tags": "Fashion Art",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4080,7 +4080,7 @@
                 "active": false
               },
               {
-                "tags": "Fetish Art",
+                "tags": "Fashion Art",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4119,7 +4119,7 @@
                 "active": false
               },
               {
-                "tags": "Fetish Art",
+                "tags": "Fashion Art",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4145,7 +4145,7 @@
                 "active": false
               },
               {
-                "tags": "Fetish Art",
+                "tags": "Fashion Art",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4158,7 +4158,7 @@
                 "active": false
               },
               {
-                "tags": "Experimental Art",
+                "tags": "Fashion Art",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4171,7 +4171,7 @@
                 "active": false
               },
               {
-                "tags": "Fetish Art",
+                "tags": "Fashion Art",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4197,7 +4197,7 @@
                 "active": false
               },
               {
-                "tags": "Fetish Art",
+                "tags": "Fashion Art",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4223,7 +4223,7 @@
                 "active": false
               },
               {
-                "tags": "Fetish Art",
+                "tags": "Fashion Art",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4249,7 +4249,7 @@
                 "active": false
               },
               {
-                "tags": "Fetish Art",
+                "tags": "Fashion Art",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4275,7 +4275,7 @@
                 "active": false
               },
               {
-                "tags": "Fetish Art",
+                "tags": "Fashion Art",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4285,7 +4285,7 @@
                 "title": "Reflection III",
                 "customStyle1": "display-7",
                 "caption": "Bildunterschrift",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Experimental Art",
@@ -4402,7 +4402,7 @@
                 "title": "Total Gas",
                 "customStyle1": "display-7",
                 "caption": "Bildunterschrift",
-                "active": true
+                "active": false
               }
             ]
           }
